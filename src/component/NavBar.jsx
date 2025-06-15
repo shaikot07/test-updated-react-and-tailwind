@@ -35,10 +35,10 @@ const NavBar = () => {
 
       {/* Mobile Menu */}
       <div className="peer-checked:block hidden lg:hidden px-4 pt-4 pb-4 space-y-2">
-        <a href="#" className="block text-gray-700 hover:text-blue-600">Home</a>
-        <a href="#" className="block text-gray-700 hover:text-blue-600">About</a>
-        <a href="#" className="block text-gray-700 hover:text-blue-600">Services</a>
-        <a href="#" className="block text-gray-700 hover:text-blue-600">Contact</a>
+        <a href="/home" className="block text-gray-700 hover:text-blue-600">Home</a>
+        <a href="/about" className="block text-gray-700 hover:text-blue-600">About</a>
+        <a href="/services" className="block text-gray-700 hover:text-blue-600">Services</a>
+        <a href="/contact" className="block text-gray-700 hover:text-blue-600">Contact</a>
       </div>
     </nav>
         </div>
